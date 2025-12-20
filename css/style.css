@@ -2,12 +2,14 @@
 body{
     color: rgb(57, 6, 6);
 font-family: "Lobster", sans-serif;
-  font-weight: 1000;
+  font-weight: 400;
   background-color: beige;
   font-style: italic;
   padding-bottom: 500px;
   text-decoration: double;
   text-transform: capitalize;
+
+
 }
 
 #header{
@@ -37,23 +39,28 @@ position: fixed;
 }
 #navbar li{
   list-style: none;
-  padding: 0 15px;
+  padding: 0 10px;
+  row-gap: 10px;
   display: flex;
   justify-content: space-evenly;
   position: relative;
-
+  text-shadow: 0px 0px 5px rgb(57, 6, 6);
 }
 .logo{
     color: rgb(57, 6, 6);
     text-decoration: none;
     padding-left: 200px;
+    text-shadow: 0px 0px 5px rgb(57, 6, 6);
+
 }
 #navbar li a{
   text-decoration: none;
-  font-size: 25px;
-  font-weight: 800;
+  font-size: 30px;
+  font-weight: 400;
   color: rgb(60, 60, 60);
   transition: 0.3 ease;
+  text-shadow: 0px 0px 5px rgb(57, 6, 6);
+
 }
 #navbar li a:hover{
 color: rgb(57, 6, 6);
@@ -88,15 +95,25 @@ left: 20px;
 
 
 }
+#hero h3{
+    text-shadow: 0px 0px 2px rgb(57, 6, 6);
+    font-size: 55px;
+    font-weight: 100;
+
+}
 #hero h4{
   padding-bottom: 15px;
+  font-size: 30px;
 }
 #hero h2{
 color: black;
-
+font-size: 30px;
+}
+#hero p{
+  font-size: 26px;
 }
 #hero button{
-background-image: url(/image/fpundation.jpg);
+background-image: url(/image/in9LepMURKAmFxbb2QkqG9.jpg);
 background-color: transparent;
 color: rgb(57, 6, 6);
 border: 0;
@@ -105,7 +122,7 @@ background-repeat: no-repeat;
 cursor: pointer;
 font-weight: 800;
 border-radius: 10px;
-font-size: 25px;
+font-size: 35px;
 }
 .section-p1{
   padding: 20px 30px;
@@ -128,7 +145,17 @@ font-size: 25px;
 
 
 }
+#products h1{
+    text-shadow: 0px 0px 5px rgb(57, 6, 6);
+    font-weight: 600;
+    font-size: 50px;
 
+}
+#products h3{
+  text-shadow: 0px 0px 5px rgb(57, 6, 6);
+    font-weight: 600;
+    font-size: 30px;
+}
 .pro {
     width: 330px;
     background: #ffffff;
@@ -279,6 +306,11 @@ color: rgb(57, 6, 6);
     transform: translateY(-8px);
 
 
+}
+#new-arrival h1{
+  font-size: 60px;
+  font-weight: 600;
+  text-shadow: 0px 0px 5px rgb(57, 6, 6);
 }
 #new-arrival img{
   border-radius: 18px;
