@@ -80,15 +80,15 @@ left: 20px;
 }
 #hero{
   background-image: url("/image/in9LepMURKAmFxbb2QkqG9.jpg");
-  height: 90vh;
+  height: 100vh;
   width: 100%;
   background-position: top 25% right 0;
   /* padding: 10px 10px; */
   padding-left: 200px;
-  padding-top: 50px;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
+  padding: 200px;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
@@ -116,6 +116,7 @@ font-size: 30px;
 background-image: url(/image/in9LepMURKAmFxbb2QkqG9.jpg);
 background-color: transparent;
 color: rgb(57, 6, 6);
+text-shadow: 0px 0px 2px rgb(57, 6, 6);
 border: 0;
 padding: 14px 88px 14px 65px;
 background-repeat: no-repeat;
@@ -244,8 +245,15 @@ color: rgb(57, 6, 6);
 }
 
 .cart-p {
-    font-size: 20px;
+    font-size: 18px;
     color: beige;
+
+}
+
+.buy-button {
+    font-size: 15px;
+    color: beige;
+    padding: 10px 5px;
 }
 #banner{
   height: 300px;
@@ -314,4 +322,152 @@ color: rgb(57, 6, 6);
 }
 #new-arrival img{
   border-radius: 18px;
+}
+#sm-banner .banner-box{
+  height: 80vh;
+  min-width: 500px;
+  margin-top: 100px;
+  background-image: url(/image/dressp.jpg);
+  background-size: cover;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+#sm-banner h1{
+  color: rgb(13, 13, 64);
+  font-size: 45px;
+  font-weight: 700;
+}
+#sm-banner h2{
+  font-size: 40px;
+  font-weight: 500;
+
+}
+#sm-banner span{
+  font-size: 17px;
+  font-weight: 300;
+
+}
+#sm-banner .banner-box2{
+  height: 80vh;
+  min-width: 500px;
+  margin-top: 100px;
+  background-image: url(/image/dress3.jpg);
+  background-size: cover;
+  padding-left: 20px;
+  padding-top: 300px;
+
+}
+
+#sm-banner .banner-box2 h2{
+  color: rgb(57, 6,6);
+  font-size: 30px;
+  font-weight: 400;
+
+}
+
+#sm-banner .banner-box2 h1{
+  color: rgb(228, 192, 8);
+  font-size: 45px;
+  font-weight: 800;
+}
+.Collection-button{
+  font-size: 15px;
+  font-weight: 400;
+  padding: 8px 8px;
+  color: rgb(228,192,8);
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid rgb(228,192,8);
+  outline: none;
+  transition: 0.2s;
+  margin-top: 10px;
+}
+#sm-banner .Collection-button:hover{
+  background: rgb(228,192,8);
+  color: beige;
+
+}
+.explore-btn1{
+  font-size: 15px;
+  font-weight: 400;
+  padding: 8px 8px;
+  color: rgb(13, 13, 64);
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid rgb(57, 6, 6);
+  outline: none;
+  transition: 0.2s;
+  margin-top: 10px;
+}
+#sm-banner .explore-btn1:hover{
+  background: rgb(13, 13, 64);
+  color: beige;
+
+}
+#banner3{
+  margin-top: 100px;
+}
+#banner3 .banner-box1{
+ height: 44vh;
+  min-width: 300px;
+  background-image: url(/image/winter3.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-left: 10px;
+  color: beige;
+  padding-top: 70px;
+}
+#banner3 .banner-box2{
+  height: 44vh;
+  min-width: 300px;
+  color: beige;
+  background-image: url(/image/heels2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 20px;
+  padding-top: 70px;
+}
+#banner3 .banner-box3{
+  height: 44vh;
+  min-width: 300px;
+  color: beige;
+  background-image: url(/image/foundatuon2.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 20px;
+  padding-top: 70px;
+}
+#newsletter{
+ margin-top: 50px;
+ background-image: url("/image/fpundation.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: 30% 50%;
+ background-color: rgb(57, 6, 6);
+ padding: 10px;
+
+
+}
+#newsletter p{
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(57, 6,6);
+}
+#newsletter p span{
+  font-size: 30px;
+  font-weight: 700;
+  color: brown;
+}
+#newsletter h2{
+    font-size: 30px;
+  font-weight: 700;
+  color: rgb(84, 48, 48);
+}
+#newsletter{
+
+}
+#newsletter{
+
 }
