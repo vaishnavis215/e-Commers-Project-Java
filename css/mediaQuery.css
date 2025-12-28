@@ -1,0 +1,462 @@
+/* media query  */
+
+@media (max-width:799px) {
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: fixed;
+    top: 0px;
+    right: -300px;
+    align-items: center;
+    height: 100vh;
+    width: 200px;
+    justify-content: flex-start;
+    box-shadow: 0px 0px 34px rgb(57, 6, 6);
+    padding: 80px 0 0 10px;
+    transition: 0.2s;
+  }
+
+  #navbar.active {
+    right: 0px;
+  }
+
+  #mobile {
+    position: fixed;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    cursor: pointer;
+    margin-left: 20px;
+
+  }
+
+  #mobile i {
+    color: rgb(57, 6, 6);
+    font-size: 25px;
+  }
+
+  #header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 90px;
+    /* background: rgb(0, 0, 0); */
+    box-shadow: 0 5px 10px wheat;
+    z-index: 999;
+    width: 100%;
+    position: fixed;
+  }
+
+  #navbar li {
+    margin-bottom: 25px;
+
+  }
+
+  #close {
+    display: initial;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    color: black;
+    font-size: 25px;
+
+  }
+
+  #lg-bag {
+    display: none;
+  }
+
+  #hero {
+    height: 70vh;
+    padding: 0 80px;
+    background-position: top 30% right 30%;
+  }
+
+  .logo {
+    text-decoration: none;
+    padding-left: 10px;
+    text-shadow: 0px 0px 5px rgb(57, 6, 6);
+
+  }
+
+
+  #hero h3 {
+    text-shadow: 0px 0px 2px rgb(57, 6, 6);
+    font-size: 25px;
+    font-weight: 100;
+
+  }
+
+  #hero h4 {
+    padding-bottom: 10px;
+    font-size: 20px;
+  }
+
+  #hero h2 {
+    color: black;
+    font-size: 30px;
+  }
+
+  #hero p {
+    font-size: 26px;
+  }
+
+  #hero button {
+    padding: 10px 50px 10px 50px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 25px;
+  }
+
+  #shop .shop-box {
+    max-width: 250px;
+    padding: 20px 0px;
+    border-radius: 4px;
+    margin-top: 60px;
+  }
+
+  #shop .shop-box:hover {
+    box-shadow: 0px 0px 40px black;
+    transform: translateY(-8px);
+
+
+  }
+
+  #shop img {
+    width: 200px;
+    height: 250px;
+  }
+
+  #shop h2 {
+    font-size: 18px;
+  }
+
+  #products {
+    margin-bottom: 100px;
+    height: 30vh;
+  }
+
+  #products h1 {
+    text-shadow: 0px 0px 5px rgb(57, 6, 6);
+    font-weight: 600;
+    font-size: 50px;
+
+
+  }
+
+  #products h3 {
+    text-shadow: 0px 0px 5px rgb(57, 6, 6);
+    font-weight: 600;
+    font-size: 30px;
+  }
+
+  .pro {
+    width: 160px;
+    padding-bottom: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+
+  }
+
+  .pro:hover {
+    transform: translateY(-8px);
+    box-shadow: 0px 0px 34px rgb(57, 6, 6);
+  }
+
+  .pro img {
+    width: 100%;
+    height: 200px;
+
+  }
+
+  .description {
+    padding: 0px;
+    text-align: left;
+  }
+
+  .description span {
+    font-size: 14px;
+    font-weight: 300;
+  }
+
+  .description h5 {
+    margin-top: 5px;
+    font-size: 16px;
+
+  }
+
+  .star i {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+
+  .description h4 {
+    margin-top: 8px;
+    font-size: 18px;
+
+  }
+
+  .description button {
+    margin-top: 12px;
+    padding: 8px 10px;
+
+  }
+
+  .description button:hover {
+    background: rgb(57, 6, 6);
+  }
+
+  .description button a {
+    color: #fff;
+    font-size: 18px;
+  }
+
+  #products .description .cart-p {
+    font-size: 8px;
+  }
+
+  .buy-button {
+    font-size: 15px;
+    padding: 10px 5px;
+  }
+
+  #banner {
+    height: 180px;
+    width: 100%;
+  }
+
+  #banner h1 {
+    font-size: 45px;
+
+  }
+
+  #banner span {
+    font-size: 50px;
+
+  }
+
+  #banner .explore-btn {
+    font-size: 15px;
+    font-weight: 700;
+    padding: 5px 10px;
+    cursor: pointer;
+
+  }
+
+  #banner .explore-btn:hover {
+    background: rgb(57, 6, 6);
+    color: beige;
+  }
+
+  #new-arival {
+    width: 100%;
+    height: 50vh;
+    margin-top: 100px;
+  }
+
+  .arival-col {
+    height: 450px;
+    margin-top: 30px;
+  }
+
+  .arival-col:hover {
+    box-shadow: 0 4px 15px rgb(57, 6, 6);
+    transform: translateY(-8px);
+  }
+
+  #new-arrival h5 {
+    font-size: 10px;
+    font-weight: 400;
+  }
+  #new-arrival span{
+    font-size: 10px;
+  }
+  #new-arrival .description{
+    padding: 5px 5px;
+  }
+  #new-arival img {
+    border-radius: 18px;
+  }
+
+  #new-arrival .buy-button {
+    padding: 5px 5px;
+    font-size: 10px;
+  }
+
+  #new-arrival .cart-button {
+    font-size: 10px;
+    padding: 5px 5px;
+  }
+
+  #sm-banner .banner-box {
+    height: 80vh;
+    min-width: 300px;
+
+  }
+
+
+  #sm-banner h1 {
+    font-size: 45px;
+    font-weight: 700;
+  }
+
+  #sm-banner h2 {
+    font-size: 40px;
+    font-weight: 500;
+
+  }
+
+  #sm-banner span {
+    font-size: 17px;
+    font-weight: 300;
+
+  }
+
+  #sm-banner .banner-box2 {
+    height: 80vh;
+    min-width: 500px;
+    margin-top: 100px;
+    padding-left: 20px;
+    padding-top: 300px;
+
+  }
+
+  #sm-banner .banner-box2 h2 {
+    color: rgb(57, 6, 6);
+    font-size: 30px;
+    font-weight: 400;
+
+  }
+
+  #sm-banner .banner-box2 h1 {
+    color: rgb(228, 192, 8);
+    font-size: 45px;
+    font-weight: 800;
+  }
+
+  .Collection-button {
+    font-size: 15px;
+    font-weight: 400;
+    padding: 8px 8px;
+    
+  }
+  .explore-btn1 {
+    font-size: 15px;
+    font-weight: 400;
+    padding: 8px 8px;
+    
+  }
+
+
+
+  #banner3 {
+    margin-top: 80px;
+  }
+
+  #banner3 .banner-box1 {
+    height: 20vh;
+    min-width: 200px;
+    padding-top: 50px;
+  }
+
+  #banner3 .banner-box2 {
+    height: 20vh;
+    min-width: 200px;
+    padding-top: 50px;
+  }
+
+  #banner3 .banner-box3 {
+    height: 40vh;
+    min-width: 300px;
+    margin-top: 20px;
+    font-size: 60px;
+  }
+
+  #newsletter {
+    margin-top: 50px;
+
+  }
+
+  #newsletter p {
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  #newsletter p span {
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  #newsletter h2 {
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  #newsletter input {
+    height: 30px;
+    width: 100%;
+
+  }
+
+  #newsletter .sign-button {
+    font-size: 15px;
+    padding: 0px 30px;
+  }
+
+  #footer {
+    padding-top: 25px;
+  }
+
+  #footer h1 {
+    font-size: 30px;
+    font-weight: 400;
+  }
+
+  #footer .logo-footer {
+    font-size: 40px;
+  }
+
+  #footer a {
+    font-size: 20px;
+  }
+
+
+  #footer p {
+    font-size: 20px;
+  }
+
+  #footer .follow {
+    font-size: 20px;
+
+  }
+
+  #footer .follow i {
+    font-size: 18px;
+  }
+
+  #footer .install .row img {
+    height: 50px;
+    width: 80px;
+    margin-top: 10px;
+  }
+
+  #footer .install .row img:hover {
+    cursor: pointer;
+  }
+
+  #footer .install h2 {
+    padding-top: 23px;
+
+  }
+
+  #footer .install .row p {
+    margin-top: 50px;
+  }
+
+  #footer .copyright {
+    text-align: center;
+  }
+
+}
