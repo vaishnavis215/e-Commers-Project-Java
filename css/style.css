@@ -470,7 +470,7 @@ body {
   height: 44vh;
   min-width: 300px;
   color: beige;
-  background-image: url(./image/heels2.jpg);
+  background-image: url("./image/heels2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   padding-left: 20px;
@@ -481,7 +481,7 @@ body {
   height: 44vh;
   min-width: 300px;
   color: beige;
-  background-image: url(./image/foundatuon2.webp);
+  background-image: url("./image/foundatuon2.webp");
   background-size: cover;
   background-repeat: no-repeat;
   padding-left: 20px;
