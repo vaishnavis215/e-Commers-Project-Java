@@ -97,7 +97,7 @@ body {
 }
 
 #hero {
-  background-image: url(./image/in9LepMURKAmFxbb2QkqG9.jpg);
+  background-image: url("./image/in9LepMURKAmFxbb2QkqG9.jpg");
   height: 100vh;
   width: 100%;
   background-position: top 25% right 0;
