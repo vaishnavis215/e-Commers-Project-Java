@@ -5,150 +5,167 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Women'sAura</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/mediaQuery.css">
 </head>
 
 <body>
+
+    <!-- ================= HEADER ================= -->
     <header id="header">
-        <h1><a href="#" class="logo">Women'sAura</a></h1>
+        <h1><a href="index.html" class="logo">Women'sAura</a></h1>
+
         <ul id="navbar">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
 
-            <li> <a class="active" href="index.html">Home</a></li>
-            <li> <a href="shop.html">Shop</a></li>
-            <li> <a href="about.html">About</a></li>
-            <li> <a href="contact.html">Contact</a></li>
-            <li id="lg-bag"> <a href="cart.html"> <i class="bi bi-cart-check"></i>
-                </a></li>
-            <a href="" id="close"> <i class="bi bi-x-square"></i>
-            </a>
+            <li id="lg-bag">
+                <a href="cart.html" class="bi-nav">
+                    <i class="bi bi-cart-check"></i>
+                </a>
+            </li>
+
+            <li id="close">
+                <i class="bi bi-x-square"></i>
+            </li>
         </ul>
+
         <div id="mobile">
-            <a href="cart.html"> <i class="bi bi-cart-check"></i> </a>
-            <i id="bar" class="fas bi bi-list"></i>
-
+            <a href="cart.html"><i class="bi bi-cart-check"></i></a>
+            <i id="bar" class="bi bi-list"></i>
         </div>
-
     </header>
+
+    <!-- ================= HERO ================= -->
     <section id="hero">
         <h4>Trend Is Here</h4>
-        <h3>Super Value Deals </h3>
+        <h3>Super Value Deals</h3>
         <h2>On Branded Products</h2>
         <p>Save more with coupons & upto 70% off</p>
         <button>Shop Now</button>
     </section>
 
+    <!-- ================= SHOP CATEGORY ================= -->
     <section id="shop" class="section-p1">
-
         <div class="container-fluid text-center">
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
                 <div class="col">
                     <div class="shop-box">
-                        <img src="image/e1.jpg" alt="" width="400px" height="450px">
-                        <h2 class="text-1">Dresses</h2>
+                        <img src="image/e1.jpg" alt="">
+                        <h2>Dresses</h2>
                     </div>
                 </div>
                 <div class="col">
                     <div class="shop-box">
-                        <img src="image/flat3.jpg" alt="" width="400px" height="450px">
-                        <h2 class="text-1">footware</h2>
+                        <img src="image/flat3.jpg" alt="">
+                        <h2>Footwear</h2>
                     </div>
                 </div>
                 <div class="col">
                     <div class="shop-box">
-                        <img src="image/foundatuon2.webp" alt="" width="400px" height="450px">
-                        <h2 class="text-1">Beauty Glow</h2>
+                        <img src="image/foundatuon2.webp" alt="">
+                        <h2>Beauty Glow</h2>
                     </div>
                 </div>
                 <div class="col">
                     <div class="shop-box">
-                        <img src="image/lehenga9.webp" alt="" width="400px" height="450px">
-                        <h2 class="text-1">Wedding Lehenga</h2>
+                        <img src="image/lehenga9.webp" alt="">
+                        <h2>Wedding Lehenga</h2>
                     </div>
                 </div>
             </div>
         </div>
-
     </section>
+
+    <!-- ================= PRODUCTS ================= -->
     <section id="products" class="section-p1 text-center">
-        <div class="container-fluid pro-container">
-            <div class="row">
-                <h1 class="text-center">Winter Collections</h1>
-                <h3 class="text-center">Winter Collections new Modern Designs</h3>
-                <div class="col">
-                    <div class="pro p-2">
-                        <img src="image/winter2.webp" alt="" width="100%">
+        <h1>Winter Collections</h1>
+        <h3>New Modern Designs</h3>
+
+        <div class="container-fluid">
+            <div class="row g-4 justify-content-center">
+
+                <!-- Product Card -->
+                <div class="col-md-4">
+                    <div class="pro">
+                        <img src="image/winter2.webp" alt="">
                         <div class="description">
                             <span>Adidas</span>
                             <h5>Winter Jackets</h5>
                             <div class="star">
-                                <i class="bi-p bi-star-fill"></i>
-                                <i class="bi-p bi-star-fill"></i>
-                                <i class="bi-p bi-star-fill"></i>
-                                <i class="bi-p bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
                             </div>
-                            <h4><i class="bi-p bi-currency-rupee"></i>1800</h4>
+                            <h4><i class="bi bi-currency-rupee"></i>1800</h4>
                             <button class="buy-button">BUY NOW</button>
-                            <button class="cart-p"><a href=""> <i class="bi  bi-cart-check"></i></a></button>
+                            <button class="cart-p"><i class="bi bi-cart-check"></i></button>
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="pro p-2">
-                        <img src="image/winter5.jpg" alt="" width="100%">
+
+                <div class="col-md-4">
+                    <div class="pro">
+                        <img src="image/winter5.jpg" alt="">
                         <div class="description">
                             <span>Adidas</span>
                             <h5>Winter Boots</h5>
                             <div class="star">
-                                <i class="bi-p bi-star-fill"></i>
-                                <i class="bi-p bi-star-fill"></i>
-                                <i class="bi-p bi-star-fill"></i>
-                                <i class="bi-p bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
                             </div>
-                            <h4><i class="bi-p bi-currency-rupee"></i>2500</h4>
+                            <h4><i class="bi bi-currency-rupee"></i>2500</h4>
                             <button class="buy-button">BUY NOW</button>
-                            <button class="cart-p"><a href=""> <i class="bi bi-cart-check"></i></a></button>
+                            <button class="cart-p"><i class="bi bi-cart-check"></i></button>
                         </div>
                     </div>
                 </div>
 
-                <div class="col">
-                    <div class="pro p-2">
-                        <img src="image/winter4.jpg" alt="" width="100%">
+                <div class="col-md-4">
+                    <div class="pro">
+                        <img src="image/winter4.jpg" alt="">
                         <div class="description">
                             <span>Adidas</span>
                             <h5>Sweaters & Cardigans</h5>
                             <div class="star">
-                                <i class="bi-p bi-star-fill"></i>
-                                <i class="bi-p bi-star-fill"></i>
-                                <i class="bi-p bi-star-fill"></i>
-                                <i class="bi-p bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
                             </div>
-                            <h4><i class="bi-p bi-currency-rupee"></i>1400</h4>
+                            <h4><i class="bi bi-currency-rupee"></i>1400</h4>
                             <button class="buy-button">BUY NOW</button>
-                            <button class="cart-p"><a href=""> <i class="bi bi-cart-check"></i></a></button>
+                            <button class="cart-p"><i class="bi bi-cart-check"></i></button>
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
 
+    <!-- ================= BANNER ================= -->
     <section id="banner">
-        <h1>
-            Up to <span>50% off</span>-All Sarees & Jwellery
-        </h1>
+        <h1>Up to <span>50% OFF</span> – Sarees & Jewellery</h1>
         <button class="explore-btn">Explore More</button>
-
     </section>
+
     <section id="new-arrival">
         <div class="container-fluid">
             <div class="row  ">
@@ -404,6 +421,35 @@
         </div>
 
     </section>
+
+
+ <section id="sm-banner">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <div class="banner-box">
+                        <h2>Crazy Deals</h2>
+                        <h1>Buy 1 get 1 free</h1>
+                        <span>The best classic Dresses is on sale at <br> Women'sAura</span>
+                        <br><button class="explore-btn1">Explore More</button>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="banner-box2">
+                        <h2>couture-style gown
+                        </h2>
+                        <h1>red-carpet events showcases</h1>
+                        <span>The high-fashion, expressive Collections available in Women'sAura</span>
+                        <br> <button class="Collection-button">Collections</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
     <section id="banner3">
         <div class="container-fluid">
             <div class="row">
@@ -433,101 +479,57 @@
         </div>
 
     </section>
+    <!-- ================= NEWSLETTER ================= -->
     <section id="newsletter">
         <div class="container-fluid">
-            <div class="newstext">
-                <div class="row">
-                    <div class="col">
-                        <div class="newstext">
-                            <h2>Sign up for newsletters</h2>
-                            <p>Get E-mail Updates About our latest shop and <span>special offers.</span></p>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="form">
-                            <div class="d-flex flex-row-reverse">
-                                <div class="p-2"> <button class="sign-button">Sign Up</button>
-                                </div>
-                                <div class="p-2"> <input type="text" name="" id=""
-                                        placeholder="Your E-mail Address....">
-                                </div>
-
-                            </div>
-                        </div>
-
-                    </div>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2>Sign up for newsletters</h2>
+                    <p>Get updates about our latest shop & <span>special offers</span></p>
                 </div>
-
-
-
+                <div class="col-md-6 d-flex">
+                    <input type="email" placeholder="Your email address">
+                    <button class="sign-button ms-2">Sign Up</button>
+                </div>
             </div>
         </div>
-
-
     </section>
-    <section id="footer">
+
+    <!-- ================= FOOTER ================= -->
+    <footer id="footer">
         <div class="container-fluid">
             <div class="row">
-                <div class="col">
+
+                <div class="col-md-4">
                     <h2 class="logo-footer">Women'sAura</h2>
-                    <h4>Contact</h4>
-                    <p><strong>Address:</strong>near by new cinema, PCMC, Pune-421008</p>
-                    <p><strong>Phone:</strong>+91 9058464855</p>
-                    <p><strong>Hours:</strong>10:00AM-09:00PM, Mon-Sat</p>
-                    <div class="follow">
-                        <h2>follow us </h2>
-                        <div class="icons">
-                            <i class="bi bi-facebook"></i>
-                            <i class="bi bi-whatsapp"></i>
-                            <i class="bi bi-instagram"></i>
-                            <i class="bi bi-youtube"></i>
-                            <i class="bi bi-twitter"></i>
-                        </div>
-                    </div>
+                    <p><strong>Address:</strong> PCMC, Pune</p>
+                    <p><strong>Phone:</strong> +91 9058464855</p>
                 </div>
-                <div class="col">
+
+                <div class="col-md-4">
                     <h1>About</h1>
-                    <a href="">About us</a>
-                    <a href="">Delivery information</a>
-                    <a href="">Private policy</a>
-                    <a href="">Terms and condition</a>
-                    <a href="">Contact Us</a>
-
+                    <a href="#">About Us</a><br>
+                    <a href="#">Privacy Policy</a><br>
+                    <a href="#">Terms & Conditions</a>
                 </div>
-                <div class="col">
-                    <h1>My Account</h1>
-                    <a href="">Sign in</a>
-                    <a href="">View Cart</a>
-                    <a href="">My wishlist</a>
-                    <a href="">Tract my order</a>
-                    <a href="">Help</a>
-                </div>
-                <div class="col install">
-                    <h2>install app</h2>
-                    <p>from app store or google play</p>
-                    <div class="row">
-                        <img src="./image/pay/ChatGPT Image Dec 26, 2025, 04_58_45 PM.png" alt="">
-                        <img src="./image/pay/ChatGPT Image Dec 26, 2025, 04_59_29 PM.png" alt="">
 
-                        <p>Secured payment getway</p>
-                        <img src="./image/pay/ChatGPT Image Dec 26, 2025, 04_59_48 PM.png" alt="">
-                        <img src="./image/pay/ChatGPT Image Dec 26, 2025, 04_59_57 PM.png" alt="">
-                        <img src="./image/pay/ChatGPT Image Dec 26, 2025, 05_01_00 PM.png" alt="">
-
-                    </div>
-                </div>
-                <div class="copyright">
-                    <p>@2025, Tech etc - Html Css Javascript projects</p>
+                <div class="col-md-4">
+                    <h1>Follow Us</h1>
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-youtube"></i>
                 </div>
             </div>
-        </div>
-        </div>
 
-    </section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
+            <div class="copyright">
+                <p>© 2025 Women'sAura | HTML CSS Project</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./style.js"></script>
-</body>
 
+</body>
 </html>
