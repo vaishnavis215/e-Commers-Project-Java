@@ -97,7 +97,7 @@ body {
 }
 
 #hero {
-  background-image: url("./image/in9LepMURKAmFxbb2QkqG9.jpg");
+  background-image: url("../image/in9LepMURKAmFxbb2QkqG9.jpg");
   height: 100vh;
   width: 100%;
   background-position: top 25% right 0;
@@ -289,7 +289,7 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-image: url(./image/jset2.jpeg);
+  background-image: url("../image/jset2.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -363,7 +363,7 @@ body {
   height: 80vh;
   min-width: 500px;
   margin-top: 100px;
-  background-image: url(./image/dressp.jpg);
+  background-image: url(../image/dressp.jpg);
   background-size: cover;
   padding-left: 20px;
   padding-top: 20px;
@@ -391,7 +391,7 @@ body {
   height: 80vh;
   min-width: 500px;
   margin-top: 100px;
-  background-image: url(./image/dress3.jpg);
+  background-image: url(../image/dress3.jpg);
   background-size: cover;
   padding-left: 20px;
   padding-top: 700px;
@@ -458,7 +458,7 @@ body {
 #banner3 .banner-box1 {
   height: 44vh;
   min-width: 300px;
-  background-image: url("./image/winter3.webp");
+  background-image: url("../image/winter3.webp");
   background-size: contain;
   background-repeat: no-repeat;
   padding-left: 10px;
@@ -470,7 +470,7 @@ body {
   height: 44vh;
   min-width: 300px;
   color: beige;
-  background-image: url("./image/heels2.jpg");
+  background-image: url("../image/heels2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   padding-left: 20px;
@@ -481,7 +481,7 @@ body {
   height: 44vh;
   min-width: 300px;
   color: beige;
-  background-image: url("./image/foundatuon2.webp");
+  background-image: url("../image/foundatuon2.webp");
   background-size: cover;
   background-repeat: no-repeat;
   padding-left: 20px;
@@ -490,7 +490,7 @@ body {
 
 #newsletter {
   margin-top: 50px;
-  background-image: url("./image/fpundation.jpg");
+  background-image: url("../image/fpundation.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 30% 50%;
@@ -614,4 +614,3 @@ body {
 #footer .copyright {
   text-align: center;
 }
-
